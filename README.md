@@ -1,6 +1,6 @@
 # Watson-Assistant-Integration
-Watson-Assistant with integration capabilities
+### Watson-Assistant with integration capabilities
 
-Нужно __main__.py задерлойить как Cloud Function. Для этого нужно аккуратно выполнить команды, указанные в script for installation.txt
+ "__main__.py" should be deployed as Cloud Function (Action) on IBM Cloud.  For this you should carefully run commands from "script for installation.txt"
 
-Потом указанную Cloud Function указать как webhook в Watson Assistant
+Then link registered Cloud Function as a webhook in Watson Assistant
