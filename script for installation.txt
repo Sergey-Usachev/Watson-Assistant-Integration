@@ -1,0 +1,20 @@
+cd /Users/sergeyusachev/code/TelcoWA
+-- cd Desktop; mkdir rates; cd rates
+virtualenv virtualenv --python=python3.7
+
+source virtualenv/bin/activate
+pip install pycbrf
+pip install botocore
+pip install ibm_boto3
+pip install datetime
+pip install opencage
+pip install math
+
+deactivate
+zip -r exp.zip virtualenv __main__.py
+
+ibmcloud login --sso
+ibmcloud target --cf
+ibmcloud fn action create telecom_wa_2 exp.zip  --kind python:3.7 --main main
+ibmcloud fn action invoke telecom_wa_2 --result --param action list_atm
+ibmcloud fn action invoke telecom_wa_2 --result --param action test

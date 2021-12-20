@@ -1,0 +1,2476 @@
+{
+  "intents": [
+    {
+      "intent": "Account",
+      "examples": [
+        {
+          "text": "Can I check my account?"
+        },
+        {
+          "text": "I want to check my account"
+        },
+        {
+          "text": "my account"
+        },
+        {
+          "text": "show me my account"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Currency_rate",
+      "examples": [
+        {
+          "text": "Currency rates"
+        },
+        {
+          "text": "Currency rates by CBR"
+        },
+        {
+          "text": "Курс валют Банка Росиии"
+        },
+        {
+          "text": "Курс валют Центрального банка"
+        },
+        {
+          "text": "Текущие курсы валют"
+        }
+      ],
+      "description": "Курс валют ЦБ РФ"
+    },
+    {
+      "intent": "Find_ATM",
+      "examples": [
+        {
+          "text": "cash machine"
+        },
+        {
+          "text": "Find ATM"
+        },
+        {
+          "text": "Find_ATM"
+        },
+        {
+          "text": "nearest cash machine"
+        },
+        {
+          "text": "найти банкомат"
+        },
+        {
+          "text": "найти ближайший банкомат"
+        }
+      ],
+      "description": "Find_ATM"
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "That's everything"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "Brilliant!"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You've been so helpful :)"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "Insurance_Scoring",
+      "examples": [
+        {
+          "text": "'aa'"
+        },
+        {
+          "text": "Insurance"
+        },
+        {
+          "text": "Scoring"
+        },
+        {
+          "text": "ssdffsd"
+        }
+      ],
+      "description": "Insurance Scoring"
+    },
+    {
+      "intent": "List_ATM",
+      "examples": [
+        {
+          "text": "List of ATMs"
+        },
+        {
+          "text": "List of cash machines"
+        },
+        {
+          "text": "Список банкоматов"
+        }
+      ],
+      "description": "List of ATMs"
+    },
+    {
+      "intent": "menu",
+      "examples": [
+        {
+          "text": "Main menu"
+        },
+        {
+          "text": "Menu"
+        },
+        {
+          "text": "меню"
+        }
+      ],
+      "description": "main menu"
+    },
+    {
+      "intent": "MyPlan",
+      "examples": [
+        {
+          "text": "can i see my plan"
+        },
+        {
+          "text": "Data left"
+        },
+        {
+          "text": "International minutes left"
+        },
+        {
+          "text": "I want to check my data"
+        },
+        {
+          "text": "I want to check my monthly plan"
+        },
+        {
+          "text": "i want to see my local minutes"
+        },
+        {
+          "text": "Local minutes left"
+        },
+        {
+          "text": "minutes"
+        },
+        {
+          "text": "my data"
+        },
+        {
+          "text": "Show me my monthly plan"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Plans",
+      "examples": [
+        {
+          "text": "Can I see your plans?"
+        },
+        {
+          "text": "Can I see your services"
+        },
+        {
+          "text": "change plan"
+        },
+        {
+          "text": "check your plans"
+        },
+        {
+          "text": "give me information"
+        },
+        {
+          "text": "I want information about"
+        },
+        {
+          "text": "mobile plans"
+        },
+        {
+          "text": "plan"
+        },
+        {
+          "text": "plan offers"
+        },
+        {
+          "text": "plans"
+        },
+        {
+          "text": "see your plans"
+        },
+        {
+          "text": "show me plan"
+        },
+        {
+          "text": "What are your offerings?"
+        },
+        {
+          "text": "What are your plans?"
+        },
+        {
+          "text": "What are your services?"
+        },
+        {
+          "text": "what offers do you have?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Transaction",
+      "examples": [
+        {
+          "text": "can i see my transaction history"
+        },
+        {
+          "text": "can i see my transactions"
+        },
+        {
+          "text": "i want to check my transations"
+        },
+        {
+          "text": "I want to see my transaction history"
+        },
+        {
+          "text": "my transactions history"
+        },
+        {
+          "text": "show me my transactions"
+        },
+        {
+          "text": "what are my transactions"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "city",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Москва",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Тверь",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "currency",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "EUR",
+          "synonyms": [
+            "euro",
+            "евро"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "GBP",
+          "synonyms": [
+            "pound",
+            "фунт"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "USD",
+          "synonyms": [
+            "dollar",
+            "доллар",
+            "доллар США"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Customer_Age",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "Customer_Age",
+          "patterns": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "gender",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "female",
+          "synonyms": [
+            "женский"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "male",
+          "synonyms": [
+            "мужской"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "plans_entities",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Plan 1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Plan 2",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Plan 3",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "scoring_string",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "smoker",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "Нет"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "Да"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "plan",
+          "synonyms": [
+            "balance",
+            "my plan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "transaction",
+          "synonyms": [
+            "history transaction",
+            "transactions"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "yes_no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "No",
+            "Нет"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "Yes",
+            "Да"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://eu-gb.functions.appdomain.cloud/api/v1/web/sergey.usachev%40ibm.com_dev/default/telecom_wa_2.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Oops, I didn't get that can you rephrase your sentence?"
+              },
+              {
+                "text": "I don't understand what you're saying."
+              },
+              {
+                "text": "I have no answer for what you are asking."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_3_1591610581824",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1636486057980",
+      "context": {
+        "age": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_10_1636486057980"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1636486889501",
+      "context": {
+        "bmi": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_10_1636486889502"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1636571011063",
+      "context": {
+        "yes_no": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_10_1636571011075"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you smoke?",
+            "options": [
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              },
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1637134010441",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1637134010442",
+      "previous_sibling": "handler_9_1637134010442"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I would really appreciate your feedback if you can please rate our lovely conversation:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "1 😞",
+                "value": {
+                  "input": {
+                    "text": "1"
+                  }
+                }
+              },
+              {
+                "label": "2 😕",
+                "value": {
+                  "input": {
+                    "text": "2"
+                  }
+                }
+              },
+              {
+                "label": "3 🙂",
+                "value": {
+                  "input": {
+                    "text": "3"
+                  }
+                }
+              },
+              {
+                "label": "4 😌",
+                "value": {
+                  "input": {
+                    "text": "4"
+                  }
+                }
+              },
+              {
+                "label": "5 😄",
+                "value": {
+                  "input": {
+                    "text": "5"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_4_1591613908638",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1591613908650",
+      "previous_sibling": "handler_6_1591613908650"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1595356260656",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1595356260659",
+      "previous_sibling": "handler_5_1595356260659"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1636527368695",
+      "context": {
+        "currency": "@currency"
+      },
+      "conditions": "@currency",
+      "event_name": "input",
+      "dialog_node": "handler_3_1636527368707"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Gender?",
+            "options": [
+              {
+                "label": "male",
+                "value": {
+                  "input": {
+                    "text": "male"
+                  }
+                }
+              },
+              {
+                "label": "female",
+                "value": {
+                  "input": {
+                    "text": "female"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_10_1636986575643",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1636986575643",
+      "previous_sibling": "handler_8_1636986575643"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1637133905984",
+      "context": {
+        "children_number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_3_1637133905984"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1591546132500",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1591546132514"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1595356260656",
+      "context": {
+        "type": "@type"
+      },
+      "conditions": "@type",
+      "event_name": "input",
+      "dialog_node": "handler_5_1595356260659"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your Account Number:"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter your Account Number:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1591546132500",
+      "context": {},
+      "event_name": "focus",
+      "dialog_node": "handler_6_1591546132514",
+      "previous_sibling": "handler_4_1591546132514"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter your OTP:"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1591550244621",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1591550244626",
+      "previous_sibling": "handler_8_1591550244626"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1591613908638",
+      "context": {
+        "survey_result": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_6_1591613908650"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your age?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_3_1636486057980",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1636486057980",
+      "previous_sibling": "handler_10_1636486057980"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Укажите валюту",
+            "options": [
+              {
+                "label": "USD",
+                "value": {
+                  "input": {
+                    "text": "USD"
+                  }
+                }
+              },
+              {
+                "label": "EUR",
+                "value": {
+                  "input": {
+                    "text": "EUR"
+                  }
+                }
+              },
+              {
+                "label": "GBP",
+                "value": {
+                  "input": {
+                    "text": "GBP"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_1_1636527368695",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1636527368707",
+      "previous_sibling": "handler_3_1636527368707"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1591550244621",
+      "context": {
+        "otp": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_8_1591550244626"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1636571011063",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1636571011075",
+      "previous_sibling": "handler_10_1636571011075"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1636986575643",
+      "context": {
+        "gender": "@gender"
+      },
+      "conditions": "@gender",
+      "event_name": "input",
+      "dialog_node": "handler_8_1636986575643"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Number of children?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1637133905984",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1637133905984",
+      "previous_sibling": "handler_3_1637133905984"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your BMI (body-mass index)?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1636486889501",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1636486889502",
+      "previous_sibling": "handler_10_1636486889502"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1637134010441",
+      "context": {
+        "smoker": "@smoker"
+      },
+      "conditions": "@smoker",
+      "event_name": "input",
+      "dialog_node": "handler_9_1637134010442"
+    },
+    {
+      "type": "frame",
+      "title": "Survey",
+      "parent": "node_3_1591610581824",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_8_1591616012750"
+      },
+      "conditions": "",
+      "dialog_node": "node_10_1591613891453",
+      "previous_sibling": "slot_10_1636571011063"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello 👋 I'm your assistant ready to answer your questions. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_10_1636571651268"
+    },
+    {
+      "type": "standard",
+      "title": "Find ATM",
+      "output": {
+        "generic": []
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Find_ATM",
+      "digress_in": "not_available",
+      "dialog_node": "node_10_1636702141707",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1636708333865"
+    },
+    {
+      "type": "standard",
+      "title": "MyPlan",
+      "output": {
+        "generic": [
+          {
+            "time": 4,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Your Monthly Plan:\nLocal minutes : 100min/SMS -> 90min/SMS Left\nData: 4GB -> 3GB Left \nInternational minutes: 50min/SMS -> 50min/SMS Left"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1591549722140",
+      "context": {},
+      "conditions": "#MyPlan && $number!=null",
+      "dialog_node": "node_1_1591559358119"
+    },
+    {
+      "type": "standard",
+      "title": "Already Signed In",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "($webhook_result_1.result != \"Incorrect credentials\" && $webhook_result_1.result !=null) && ( #Transaction || #MyPlan)",
+      "dialog_node": "node_1_1595332976082",
+      "previous_sibling": "node_8_1636527323586"
+    },
+    {
+      "type": "standard",
+      "title": "Select Plan",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Plans",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1595408601007",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "node_1_1595332976082"
+    },
+    {
+      "type": "standard",
+      "title": "set context for City",
+      "parent": "node_4_1636988029758",
+      "context": {
+        "city": "<?input.text?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_1_1636988960186"
+    },
+    {
+      "type": "frame",
+      "title": "Insurance scoring",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "age": "$age",
+            "bmi": "$bmi",
+            "sex": "$gender",
+            "action": "scoring",
+            "smoker": "$smoker",
+            "children": "$children_number"
+          },
+          "result_variable": "webhook_result_scoring"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#Insurance_Scoring",
+      "dialog_node": "node_2_1636484088552",
+      "previous_sibling": "node_10_1636702141707"
+    },
+    {
+      "type": "standard",
+      "title": "Web hook",
+      "parent": "node_9_1636989224259",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "city": "$city",
+            "action": "find_atm",
+            "address": "$address"
+          },
+          "result_variable": "webhook_result_nearest_ATM"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "true",
+      "dialog_node": "node_2_1636988554317"
+    },
+    {
+      "type": "standard",
+      "title": "Ending",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for reaching out 😊Have a great day and take care 👋"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#General_Ending || #General_Positive_Feedback",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1591610581824",
+      "previous_sibling": "node_7_1591542163028"
+    },
+    {
+      "type": "frame",
+      "title": "List ATMs",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "action": "list_atm"
+          },
+          "result_variable": "webhook_result_ATMs"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#List_ATM",
+      "dialog_node": "node_4_1636708333865",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Ask city",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "City?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1636702141707",
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_4_1636988029758",
+      "previous_sibling": "response_4_1636988169632"
+    },
+    {
+      "type": "standard",
+      "title": "Transactions",
+      "output": {
+        "generic": [
+          {
+            "time": 4,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "Your history transactions:\nJun 1 -> 25$ AED Subscription renewal\nMay 15 -> 10$ 2GB Add-on\nMay 1 -> 25$ AED Subscription renewal\nApril 12 ->  12$ AED Intl Call Add-on"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1591549722140",
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Transaction && $number!=null",
+      "dialog_node": "node_5_1591553739172",
+      "previous_sibling": "node_1_1591559358119"
+    },
+    {
+      "type": "standard",
+      "title": "Check Response",
+      "parent": "node_7_1591542163028",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1591549722140",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Plans",
+      "output": {},
+      "parent": "node_1_1595408601007",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "action": "service",
+            "entity": "@plans_entities"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@plans_entities",
+      "dialog_node": "node_6_1591984888534"
+    },
+    {
+      "type": "standard",
+      "title": "Ask address",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your address (street and building)?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1636988960186",
+      "conditions": "true",
+      "dialog_node": "node_6_1636989221714"
+    },
+    {
+      "type": "frame",
+      "title": "Account",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "OTP": "$otp",
+            "action": "account",
+            "accountID": "$number"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Account || #MyPlan || #Transaction",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1591542163028",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1595408601007",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Clear",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_10_1591613891453",
+      "context": {
+        "survey_result": null
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1591616012750"
+    },
+    {
+      "type": "frame",
+      "title": "Currency rates",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "action": "currency_rate",
+            "currency": "$currency"
+          },
+          "result_variable": "webhook_result_currency_rate"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Welcome"
+      },
+      "conditions": "#Currency_rate",
+      "dialog_node": "node_8_1636527323586",
+      "previous_sibling": "node_2_1636484088552"
+    },
+    {
+      "type": "standard",
+      "title": "set context for Address",
+      "parent": "node_6_1636989221714",
+      "context": {
+        "address": "<?input.text?>"
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1636989224259"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1591549722140",
+      "context": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1591559358119"
+      },
+      "conditions": "#MyPlan || $type == \"plan\"",
+      "dialog_node": "response_10_1591559299333",
+      "previous_sibling": "response_4_1591549729266"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm so sorry 😞 I'll make sure to show this feedback to our team so we can improve this experience."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1591613891453",
+      "conditions": "$survey_result==1",
+      "dialog_node": "response_1_1591613908051",
+      "previous_sibling": "slot_4_1591613908638"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Great! I'm glad that you enjoyed our conversation.Thank you 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1591613891453",
+      "conditions": "$survey_result==4",
+      "dialog_node": "response_1_1591613997313",
+      "previous_sibling": "response_9_1591613996083"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_currency_rate"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1636527323586",
+      "conditions": "$webhook_result_currency_rate",
+      "dialog_node": "response_1_1636527368117"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_nearest_ATM"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1636988554317",
+      "context": {
+        "city": "<?input.text?>"
+      },
+      "conditions": "$webhook_result_nearest_ATM",
+      "dialog_node": "response_1_1636988768603",
+      "previous_sibling": "response_5_1636988770666"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1591542163028",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1591548293555",
+      "previous_sibling": "response_9_1591545310440"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose a plan:",
+            "options": [
+              {
+                "label": "Plan 1",
+                "value": {
+                  "input": {
+                    "text": "Plan 1"
+                  }
+                }
+              },
+              {
+                "label": "Plan 2",
+                "value": {
+                  "input": {
+                    "text": "Plan 2"
+                  }
+                }
+              },
+              {
+                "label": "Plan 3",
+                "value": {
+                  "input": {
+                    "text": "Plan 3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1595408601007",
+      "conditions": "anything_else",
+      "dialog_node": "response_2_1595408607182",
+      "previous_sibling": "response_5_1595408706960"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1636988029758",
+      "disabled": true,
+      "conditions": "$webhook_result_3",
+      "dialog_node": "response_2_1636988123934",
+      "previous_sibling": "node_1_1636988960186"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1591549722140",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1591553739172"
+      },
+      "conditions": "#Transaction || $type == \"transaction\"",
+      "dialog_node": "response_3_1591559546021",
+      "previous_sibling": "response_10_1591559299333"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for reaching out 😊Have a great day and take care 👋"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1591610581824",
+      "context": {
+        "intents": null,
+        "entities": null
+      },
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_3_1591611689129",
+      "previous_sibling": "node_10_1591613891453"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Invalid credentials"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1591549722140",
+      "context": {
+        "otp": null,
+        "number": null
+      },
+      "conditions": "$webhook_result_1.result == \"Incorrect credentials\"",
+      "dialog_node": "response_4_1591549729266",
+      "previous_sibling": "node_5_1591553739172"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's amazing! Thank you so much this means a lot 🤗\nHope you have a great day 😄"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1591613891453",
+      "conditions": "$survey_result==5",
+      "dialog_node": "response_4_1591613998521",
+      "previous_sibling": "response_1_1591613997313"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your history transactions: \nJun 1 -> 25$ AED Subscription renewal \nMay 15 -> 10$ 2GB Add-on \nMay 1 -> 25$ AED Subscription renewal\nApril 12 ->  12$ AED Intl Call Add-on"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595332976082",
+      "conditions": "#Transaction",
+      "dialog_node": "response_4_1595355475014",
+      "previous_sibling": "response_6_1595333082962"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "\"Error\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1636708333865",
+      "conditions": "anything_else",
+      "dialog_node": "response_4_1636708367025",
+      "previous_sibling": "response_8_1636708365027"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1636702141707",
+      "disabled": true,
+      "dialog_node": "response_4_1636988169632"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_1_1595408601007",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1591984888534"
+      },
+      "conditions": "@plans_entities",
+      "dialog_node": "response_5_1595408706960",
+      "previous_sibling": "node_6_1591984888534"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "\"Error\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1636988554317",
+      "conditions": "anything_else",
+      "dialog_node": "response_5_1636988770666"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Monthly Plan: \nLocal minutes : 100min/SMS -> 90min/SMS Left \nData: 4GB -> 3GB Left \nInternational minutes: 50min/SMS -> 50min/SMS Left"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1595332976082",
+      "conditions": "#MyPlan",
+      "dialog_node": "response_6_1595333082962"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "\"Error\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1636484088552",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1636484636816",
+      "previous_sibling": "response_8_1636484636087"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I thought that I was doing well 😕 I promise you I will improve. I'll make sure that I'll work on myself for a better experience. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1591613891453",
+      "conditions": "$survey_result==2",
+      "dialog_node": "response_7_1591613994469",
+      "previous_sibling": "response_1_1591613908051"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "\"Ошибка\""
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1636527323586",
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1636527369985",
+      "previous_sibling": "response_1_1636527368117"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_4_1636988029758",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_7_1636988125852",
+      "previous_sibling": "response_2_1636988123934"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "What would you like to check?",
+            "options": [
+              {
+                "label": "Current Monthly Plan",
+                "value": {
+                  "input": {
+                    "text": "I want to check my monthly plan"
+                  }
+                }
+              },
+              {
+                "label": "Transactions History",
+                "value": {
+                  "input": {
+                    "text": "Transactions"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1591549722140",
+      "conditions": "anything_else",
+      "dialog_node": "response_8_1591550028806",
+      "previous_sibling": "response_3_1591559546021"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 4,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "$webhook_result_2.response"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1591984888534",
+      "context": {},
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_8_1591984888534"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "\"Predicted amount is \" & $webhook_result_scoring"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_2_1636484088552",
+      "conditions": "$webhook_result_scoring",
+      "dialog_node": "response_8_1636484636087",
+      "previous_sibling": "slot_8_1637134010441"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_ATMs"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1636708333865",
+      "conditions": "$webhook_result_ATMs",
+      "dialog_node": "response_8_1636708365027"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "time": 3,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1.result"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1591542163028",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_9_1591545310440",
+      "previous_sibling": "slot_4_1595356260656"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your feedback. \nFeel free to reach out again at anytime 🙂"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1591613891453",
+      "conditions": "$survey_result==3",
+      "dialog_node": "response_9_1591613996083",
+      "previous_sibling": "response_7_1591613994469"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1591984888534",
+      "conditions": "anything_else",
+      "dialog_node": "response_9_1591984888534",
+      "previous_sibling": "response_8_1591984888534"
+    },
+    {
+      "type": "slot",
+      "parent": "node_3_1591610581824",
+      "variable": "$yes_no",
+      "dialog_node": "slot_10_1636571011063"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1636484088552",
+      "variable": "$gender",
+      "dialog_node": "slot_10_1636986575643",
+      "previous_sibling": "slot_4_1636486889501"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_8_1636527323586",
+      "variable": "$currency",
+      "dialog_node": "slot_1_1636527368695",
+      "previous_sibling": "response_7_1636527369985"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1591542163028",
+      "variable": "$number",
+      "dialog_node": "slot_3_1591546132500",
+      "previous_sibling": "node_6_1591549722140"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1636484088552",
+      "variable": "$age",
+      "dialog_node": "slot_3_1636486057980"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1591613891453",
+      "variable": "$survey_result",
+      "dialog_node": "slot_4_1591613908638",
+      "previous_sibling": "node_8_1591616012750"
+    },
+    {
+      "type": "slot",
+      "parent": "node_7_1591542163028",
+      "variable": "$type",
+      "dialog_node": "slot_4_1595356260656",
+      "previous_sibling": "slot_8_1591550244621"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1636484088552",
+      "variable": "$bmi",
+      "dialog_node": "slot_4_1636486889501",
+      "previous_sibling": "slot_3_1636486057980"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1636484088552",
+      "variable": "$children_number",
+      "dialog_node": "slot_7_1637133905984",
+      "previous_sibling": "slot_10_1636986575643"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_7_1591542163028",
+      "variable": "$otp",
+      "dialog_node": "slot_8_1591550244621",
+      "previous_sibling": "slot_3_1591546132500"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_2_1636484088552",
+      "variable": "$smoker",
+      "dialog_node": "slot_8_1637134010441",
+      "previous_sibling": "slot_7_1637133905984"
+    },
+    {
+      "type": "standard",
+      "title": "Main menu",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "You can ask about:",
+            "options": [
+              {
+                "label": "Customer's Plan",
+                "value": {
+                  "input": {
+                    "text": "I want to check my monthly plan"
+                  }
+                }
+              },
+              {
+                "label": "Transactions History",
+                "value": {
+                  "input": {
+                    "text": "I want to check my transactions"
+                  }
+                }
+              },
+              {
+                "label": "All Plans (read csv-file on COS)",
+                "value": {
+                  "input": {
+                    "text": "What are your services?"
+                  }
+                }
+              },
+              {
+                "label": "Scoring (call model  on WML)",
+                "value": {
+                  "input": {
+                    "text": "Scoring"
+                  }
+                }
+              },
+              {
+                "label": "Currency rates (call python lib)",
+                "value": {
+                  "input": {
+                    "text": "Currency rates by CBR"
+                  }
+                }
+              },
+              {
+                "label": "Find nearest ATM (call external API)",
+                "value": {
+                  "input": {
+                    "text": "Find ATMs (calling external banks' API)"
+                  }
+                }
+              },
+              {
+                "label": "List of ATMs (call external API)",
+                "value": {
+                  "input": {
+                    "text": "List of ATMs (call external API)"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "context": {
+        "webhook_result_1": {
+          "result": null
+        }
+      },
+      "conditions": "welcome || #menu",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_10_1636571651268"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "what will happen if I did not pay my bill even if I have enough balance"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": false,
+      "randomize": true,
+      "max_suggestions": 3,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above."
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v1"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "Dialog",
+  "language": "en",
+  "description": ""
+}
