@@ -12,4 +12,4 @@ For working wih use cases related to tariff plans (reading CSV file from COS etc
 - https://ibm.ent.box.com/folder/130849296802?v=serverles-workshop
 - https://khalil-faraj.gitbook.io/go-serverless-with-watson-assistant/creating-a-cloud-function
 - https://developer.ibm.com/depmodels/serverless/tutorials/go-serverless-in-watson-assistant-with-ibm-cloud-function/
-Some of web pages became broken
+- Some of web pages became broken
